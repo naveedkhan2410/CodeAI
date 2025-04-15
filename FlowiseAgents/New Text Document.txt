@@ -1,0 +1,3 @@
+set DATABASE_TYPE=json
+set DATABASE_PATH=C:\LLMS\Agents
+npx flowise start

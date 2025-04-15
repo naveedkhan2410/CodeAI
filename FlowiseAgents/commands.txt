@@ -1,0 +1,8 @@
+set DATABASE_TYPE=json
+set DATABASE_PATH=C:\LLMS\Agents
+npx flowise start
+
+git add . // stage the file to tbe committed 
+git commit -m "from office PC" // this is local commit with anew version. SVN does not have local commits.
+git remote add origin https://github.com/naveedkhan2410/flowise-jsons.git
+git push -u origin main  //same as SVN commit

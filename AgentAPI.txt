@@ -1,0 +1,13 @@
+import requests
+
+API_URL = "http://localhost:3000/api/v1/prediction/cd41ef10-3428-422b-bde2-1ad48fe059c2"
+
+def query(payload):
+    response = requests.post(API_URL, json=payload)
+    return response.json()
+    
+output = query({
+    "1,3",
+})
+
+print (output)
